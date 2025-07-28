@@ -1,4 +1,4 @@
-package LibraryManagement;
+package com.learning.LibraryManagement.LibraryManagement;
 
 import java.util.ArrayList;
 import java.util.List;

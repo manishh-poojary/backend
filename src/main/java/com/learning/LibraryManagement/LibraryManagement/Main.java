@@ -1,4 +1,4 @@
-package LibraryManagement;
+package com.learning.LibraryManagement.LibraryManagement;
 
 public class Main {
 
