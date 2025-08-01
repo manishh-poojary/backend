@@ -1,4 +1,4 @@
-package com.learning.LibraryManagement.LibraryManagement;
+package com.learning.LibraryManagement;
 
 public class NovelBook extends Book {
 

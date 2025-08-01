@@ -1,17 +1,18 @@
-package com.learning.LibraryManagement.LibraryManagement;
+package com.learning.LibraryManagement;
 
 public abstract class User {
 
     private static int counter = 0;
 
     private final String userId;
-
     private String name;
     private String contactInfo;
 
     private static int totalUsers = 0;
 
-    public User() {
+    public User(String name, String contactInfo) {
+        this.name = name;
+        this.contactInfo = contactInfo;
         this.userId = generateRandomId();
         totalUsers++;
     }

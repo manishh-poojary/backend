@@ -1,4 +1,4 @@
-package com.learning.LibraryManagement.LibraryManagement;
+package com.learning.LibraryManagement;
 
 public abstract class Book implements Lendable {
 

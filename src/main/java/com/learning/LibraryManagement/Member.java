@@ -1,12 +1,12 @@
-package com.learning.LibraryManagement.LibraryManagement;
+package com.learning.LibraryManagement;
 
 public class Member extends User {
 
     private final int borrowedBookCount;
     private static final int MAX_BORROW_LIMIT = 5;
 
-    public Member(int borrowedBookCount) {
-        super();
+    public Member(String name, String contactInfo, int borrowedBookCount) {
+        super(name, contactInfo);
         this.borrowedBookCount = borrowedBookCount;
     }
 
